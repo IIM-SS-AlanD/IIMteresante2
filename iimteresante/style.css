@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -93,5 +93,374 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+ */
+
+/* /*A partir de aqui no es creado por VITE
+.header {
+  background-color: #003B70; /* Color de fondo para la cabecera y el pie de página 
+  color: #fff; /* Color de texto para la cabecera y el pie de página 
+  text-align: center; /* Centra el texto horizontalmente 
+  padding: 15px 90px 10px 80px; /* Espaciado interno 
+  font-family: '__Futura Hv BT_5';
+  font-size: 1rem;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para el menú de navegación en versión de escritorio */
+
+.navigation-desktop {
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navigation-desktop .menu-item {
+  margin: auto;
+  justify-content: center;
+  min-width: auto;
+  display: flex;
+}
+
+.navigation-desktop .menu-item a:hover{
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.navigation-desktop .menu-item a {
+  text-decoration: none;
+  color: #000000;
+  width: 100%;
+  display: block;
+  padding: 20px 8px;
+  margin: 2px 5px;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000000;
+}
+
+/* Estilos para el menú de navegación en versión móvil */
+.menu-mobile {
+  position: fixed;
+  top: 0;
+  right: -80%; /* Inicialmente oculto en la parte derecha */
+  width: 80%;
+  height: 100%;
+  background-color: #ffffff; /* Fondo sólido */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  overflow-y: auto;
+  transition: right 0.3s ease-in-out;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: -20%; /* Ajusta el valor para que el overlay cubra solo el área del menú */
+  width: 20%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo gris transparente */
+  z-index: 999; /* Coloca el overlay por encima del contenido */
+  /*display: none;*/ /* Inicialmente oculto */
+}
+
+.navigation-mobile {
+  padding: 20px 0px 20px 30px;
+}
+
+.navigation-mobile .menu-item {
+  margin: 10px 0;
+  margin: auto;
+  min-width: auto;
+  display: flex;
+}
+
+.navigation-mobile .menu-item a {
+  text-decoration: none;
+  color: #000000; /* Cambia el color de los enlaces del menú lateral */
+  font-size: 1.1em;
+  margin: 15px 5px;
+  padding: 5px 10px;
+  flex: 1 0 auto;
+}
+
+.navigation-mobile .menu-item a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.close-menu {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #000000; /* Cambia el color del botón de cierre */
+  align-self: flex-end;
+  padding: 5px 15px;
+}
+
+/* Estilos generales */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header {
+  background-color: #ffffff; /* Color de fondo para la cabecera y el pie de página */
+  color: #000000; /* Color de texto para la cabecera y el pie de página */
+  text-align: center; /* Centra el texto horizontalmente */
+  padding: 15px 90px 10px 80px; /* Espaciado interno */
+  font-family: '__Futura Hv BT_5';
+  font-size: 1rem;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo img {
+  max-width: 95%; /* Hace que la imagen sea responsiva */
+  height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+
+.unamL {
+  max-width: 125px;
+  max-height: 130px;
+}
+
+.iimL {
+  max-width: 260px;
+  max-height: 130px;
+  margin: 0px 5px;
+}
+
+.section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #e5e5e5; /* Color de fondo para las secciones */
+  padding: 20px; /* Espaciado interno */
+  margin: 10px; /* Márgenes entre secciones */
+  border: 1px solid #ccc; /* Borde para las secciones */
+}
+
+.footer-secundario{
+  background-color: #e8871eff;
+  margin: 0%;
+  color: #000;
+}
+
+.footer-secundario h4,
+.footer-secundario p{
+  margin: 0.1%;
+}
+
+.footer-secundario h4, 
+.footer-secundario b{
+  font-family: '__Futura_5';
+}
+
+.footer-secundario p{
+  font-family: '__Avenir_5';
+}
+
+#mision_vision{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mision_vision h1{
+  text-align: center;
+  color: #003B70;
+  font-family: "__Futura Hv BT_5";
+  font-size: 35px;
+}
+
+#mision_vision p{
+  text-align: justify;
+  font-family: "__Avenir_5";
+  font-size: 16px;
+  max-width: 850px;;
+  margin: 10px 20px;
+}
+
+.sectionTitle h1{
+  text-align: center;
+  color: #003B70;
+  font-family: "__Futura Hv BT_5";
+  font-size: 35px;
+}
+
+.firts-section{
+  padding: 0px;
+  margin: 0px;
+}
+
+.welcome-image{
+  height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.welcome-message{
+  position: absolute;
+  color: white;
+  padding: 100px 250px;
+  border-radius: 5px;
+  background: #003c7079;
+  flex: 0 0 auto;
+  font-family: "__Futura Hv BT_5";
+  font-size: 45px;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 950px) {
+  
+  .section {
+      flex-direction: column;
+  }
+
+  .navigation-desktop .menu-item {
+      display: none; /* Oculta el menú de escritorio en dispositivos móviles */
+  }
+
+  .navigation-desktop {
+      gap: 20px; /* Oculta el menú de escritorio en dispositivos móviles */
+      flex-wrap: nowrap;
+      height: 140px;
+  }
+
+  .menu-toggle {
+      padding: 15px 15px 15px 15px;
+      display: block; /* Muestra el botón del menú en dispositivos móviles */
+  }
+
+  .menu-toggle-container {
+      flex: 50%;
+      display: flex;
+      /* padding-right: 40px; */
+      align-items: center;
+      justify-content: flex-end;
+  }
+
+  .menu-mobile.right {
+      right: 0; /* Muestra el menú lateral en dispositivos móviles */
+  }
+
+  .menu-overlay.left {
+      left: 0; /* Muestra el menú lateral en dispositivos móviles */
+  }
+
+  .unamL {
+      max-width: 115px;
+  }
+  
+  .iimL {
+      max-width: 230px;
+  }
+
+  .header {
+      padding: 10px 50px;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .menu-item {
+      font-size: 0.85rem;
+  }
+
+  .navigation-desktop{
+      height: 100px;
+  }
+
+  .unamL {
+      max-height: 90px;
+  }
+  
+  .iimL {
+      max-height: 90px;
+  }
+
+  .header {
+      padding: 10px 30px;
+      height: 90px;
+  }
+
+  .section{
+      flex-direction: column;
   }
 }

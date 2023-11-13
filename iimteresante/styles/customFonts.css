@@ -1,0 +1,31 @@
+@font-face {
+    font-family: '__Futura Hv BT_5';
+    src: url('../fonts/futura-heavy-font1.eot');
+    src: local('☺'), url('../fonts/futura-heavy-font1.woff') format('woff'), url('../fonts/futura-heavy-font1.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "__Futura_5";
+    src: url("../fonts/futur.eot");
+    src: local("â˜º"), url("../fonts/futur.woff") format("woff"), url("../fonts/futur.svg") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "__Futura Md BT_5";
+    src: url("../fonts/futura-medium-bt1.eot");
+    src: local("â˜º"), url("../fonts/futura-medium-bt1.woff") format("woff"), url("../fonts/futura-medium-bt1.svg") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "__Avenir_5";
+    src: url("../fonts/avenir-book.eot");
+    src: local("â˜º"), url("../fonts/avenir-book.woff") format("woff"), url("../fonts/avenir-book.svg") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
