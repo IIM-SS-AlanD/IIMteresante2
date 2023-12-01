@@ -6,20 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/images/IIMTERESANTE_LOGO_sin letras.png" />
     <title>IIMteresante</title>
-
+    
     <!-- CSS -->
     <link rel="stylesheet" href="styles/customFonts.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styleTest.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/styleCarrusel.css">
+    <link rel="stylesheet" href="styles/cardStyle.css">
+    <link rel="stylesheet" href="styles/carruselT2.css">
+    <link rel="stylesheet" href="styles/cardStyleT2.css">
   </head>
   <body>
     <header class="header">
       <!-- Menu generado dinamicamente por menus.js-->
     </header>
-    <!--<div id="app"></div>-->
-    <!--<script type="module" src="/main.js"></script>-->
-
+    <main class="main"> <!-- Cuerpo de la página -->
+      <section class="section" > <!-- Sección 1 -->
+          <div class="carousel-container">
+              <div class="carousel" data-json-path="/data/carruselPrincipal.json">
+              </div>
+              <button class="prev-button">&#8249;</button>
+              <button class="next-button">&#8250;</button>
+              <div class="carousel-dots"></div>
+          </div>
+      </section>
+       
+  </main>
+    <footer class="contacto">
+      <!-- Generacion dinamica de apartado de contacto -->
+    </footer>
     <script src="scripts/carrusel.js"></script>
     <script src="scripts/tarjetas.js"></script>
     <script src="scripts/carruselT2.js"></script>

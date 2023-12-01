@@ -1,0 +1,70 @@
+/* Estilos generales de la tarjeta */
+#tarjetas_T2{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-evenly;
+    gap: 150px;
+}
+
+#tarjetas_T2 .card_T2 {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+#tarjetas_T2 .card-image_T2{
+    margin-bottom: 20px;
+}
+
+/* Estilo de la imagen circular */
+#tarjetas_T2 .card-image_T2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#tarjetas_T2 .card-content_T2{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Estilos del título */
+#tarjetas_T2 .card-content_T2 h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #003B70;
+    font-family: '__Futura_5';
+}
+
+/* Estilos del botón */
+#tarjetas_T2 .card-content_T2 a {
+    background-color: #003B70;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-family: '__Futura Md BT_5';
+    font-size: 12px;
+}
+
+#tarjetas_T2 .card-content_T2 a:hover {
+    background-color: #0056b3;
+}

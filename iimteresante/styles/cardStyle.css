@@ -1,0 +1,79 @@
+/* Estilos generales de la tarjeta */
+#tarjetas{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: space-evenly;
+    gap: 50px;
+}
+
+.card {
+    width: 300px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo de la imagen circular */
+.card-image img {
+    width: 216px;
+    height: 216px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card-content{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+/* Estilos del título */
+.card-content h2 {
+    font-size: 22px;
+    font-family: "__Futura_5";
+    margin: 0;
+    color: #003B70;
+}
+
+/* Estilos del texto descriptivo */
+.card-content p {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "__Avenir_5";
+    text-align: justify;
+    margin: 10px 0;
+    white-space: pre-wrap;
+}
+
+/* Estilos del botón */
+.card-content a {
+    background-color: #003B70;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin-top: auto;
+    font-family: '__Futura Md BT_5';
+    font-size: 12px;
+}
+
+.card-content a:hover {
+    background-color: #0056b3;
+}

@@ -1,11 +1,11 @@
-:root {
+/* :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
   
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-color: #ffffff;
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -45,7 +45,7 @@
   
   .logo {
     height: 6em;
-    padding: 1.5em;
+    /*padding: 1.5em;*//*
     will-change: filter;
     transition: filter 300ms;
   }
@@ -62,8 +62,81 @@
   
   .read-the-docs {
     color: #888;
+  } */
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
+  #menu-options{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: none;
+  }
+
+  /* Estilo para el submenu */
+  ul.submenu {
+    border-radius: 18px;
+    display: none;
+    position:absolute;
+    padding-left: 0;
+    padding-right: 10;
+    background-color: #09767c;
+    width: 230px; /* Ajusta el ancho según sea necesario */
+    height: 170px; /* Ajusta la altura según sea necesario */
   }
   
+  .navigation-desktop .menu-item a.submenulink{
+    color: #ffffff;
+    text-align:left;
+    padding: 10px;
+  }
+
+  .navigation-desktop .menu-item a.submenulink:hover{
+    color: #000000;
+  }
+
+  /* Estilo para la flecha del submenu */
+  .boton_desplegador {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Mostrar el submenu al pasar el ratón sobre el enlace del menú */
+  .boton_desplegador:hover .submenu {
+    display: block;
+    
+  }
+
+  button.arrow{
+    border: none;
+    padding:0%;
+    background-color:transparent;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-family: inherit;
+  }
+
+  button.arrow:hover{
+    color:#000000;
+    
+  }
+
   button {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -94,5 +167,5 @@
     button {
       background-color: #f9f9f9;
     }
-  }
+  } 
   

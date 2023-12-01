@@ -1,31 +1,38 @@
 const menuHeaderGenerator = `
     <nav class="navigation-desktop">
         <div class="logo iimL">
-            <a href="https://www.vinculacion.iim.unam.mx/iimteresante"><img src="/assets/images/IIMTERESANTE Logo - horizontal.png" alt="Logo iimteresante"></a>
+            <a href="https://www.vinculacion.iim.unam.mx/iimteresante"><img src="/assets/images/IIMTERESANTE Logo - horizontal en blanco.png" alt="Logo iimteresante"></a>
         </div>
         <div class="logo unamL">
-            <a href="https://www.unam.mx/"><img src="/assets/images/Escudo-UNAM-escalable.svg" alt="Logo UNAM"></a>
+            <a href="https://www.unam.mx/"><img src="/assets/images/unam_logo_blanco-02.svg" alt="Logo UNAM"></a>
         </div>
         <div class="menu-item">
-            <a href="/index.html">Inicio</a>
+            <a href="/index.html">INICIO</a>
         </div>
         <div class="menu-item">
-            <a href="/pages/servicios.html">Recursos</a>
+            <li  class="boton_desplegador">
+                <button class="arrow">RECURSOS ▼</button>
+                <ul class="submenu">
+                    <a class="submenulink" href="/pages/pitch-cientifico.html">Pitch Científico</a>
+                    <a class="submenulink" href="/pages/blog-2.html">Podcast</a>
+                    <a class="submenulink" href="/pages/infografias.html">Infografías</a>
+                </ul>   
+            </li>
         </div>
         <div class="menu-item">
-            <a href="/pages/investigacion.html">Blog</a>
+            <a href="/pages/investigacion.html">BLOG</a>
         </div>
         <div class="menu-item">
-            <a href="/pages/patentes.html">Red Cientifica</a>
+            <a href="/pages/patentes.html">RED CIENTIFICA</a>
         </div>
         <div class="menu-item">
-            <a href="/pages/convenios.html">Contacto</a>
+            <a href="/pages/convenios.html">CONTACTO</a>
         </div>
         <div class="menu-item">
-            <a href="/pages/innovacion.html">Proximamente</a>
+            <a href="/pages/innovacion.html">PROXIMAMENTE</a>
         </div>
         <div class="menu-item">
-            <a href="/pages/normatividad.html">Galeria</a>
+            <a href="/pages/normatividad.html">GALERIA</a>
         </div>
         <div class="menu-toggle-container">
             <button class="menu-toggle">☰</button>

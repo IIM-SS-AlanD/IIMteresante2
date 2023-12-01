@@ -1,0 +1,48 @@
+.carousel_T3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.arrow_T3 {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.cards-container_T3 {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 40vw;
+    height: 40vh;
+}
+
+.card_T3 {
+    background-color: #f9f9f9;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px;
+    user-select: none;
+    position: absolute;
+    transition-property: transform, opacity, zIndex;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.card_T3 img {
+    border-radius: 10px;
+}

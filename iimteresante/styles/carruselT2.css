@@ -1,0 +1,38 @@
+/* Estilos generales del carrusel */
+.carousel-container_t2 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel_t2 {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.carousel-container_t2 .carousel-item {
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+/* Estilos de los puntos de navegación */
+.carousel-container_t2 .carousel-dots_t2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-container_t2  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px 10px;
+    padding: 2px;
+}
+
+.carousel-container_t2  .dot.active {
+    background-color: #007bff;
+}

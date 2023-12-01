@@ -1,0 +1,36 @@
+[
+    {
+        "imagePath": "/assets/images/Noticias.png",
+        "url": "/pages/Noticias.html",
+        "text": "Noticias",
+        "textPosition": "top-right"
+
+    },
+    {
+        "imagePath": "/assets/images/galeria.png",
+        "url": "/pages/galeria.html",
+        "text": "Galeria",
+        "textPosition": "top-right"
+    },
+    {
+        "imagePath": "/assets/images/Recursos.png",
+        "url": "/pages/Recursos.html",
+        "text": "Recursos",
+        "textPosition": "top-right"
+    }
+    ,
+    {
+        "imagePath": "/assets/images/art_interes.png",
+        "url": "/pages/art_interes.html",
+        "text": "Articulos de interes",
+        "textPosition": "top-right"
+
+    },
+    {
+        "imagePath": "/assets/images/contacto.png",
+        "url": "/pages/contacto.html",
+        "text": "Contacto",
+        "textPosition": "top-right"
+
+    }
+]
