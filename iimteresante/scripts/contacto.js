@@ -5,23 +5,23 @@ const contactoGenerator = `
                 <div class="fila">
                     <div class="circulo">
                         <a href="https://www.facebook.com/iimunam/?ref=br_rs" target="_blank">
-                            <img src="assets/images/facebook-02.svg">
+                            <img src="../assets/images/facebook-02.svg">
                         </a>
                     </div>
                     <div class="circulo">
                         <a href="https://twitter.com/iimunam" target="_blank">
-                            <img src="assets/images/twitter-02.svg">
+                            <img src="../assets/images/twitter-02.svg">
                         </a>
                     </div>
                     <div class="circulo">
                         <a href="https://www.youtube.com/@vinculacioniim" target="_blank">
-                            <img src="assets/images/youtube-02.svg">
+                            <img src="../assets/images/youtube-02.svg">
                         </a>
                     </div>
                     <div class="circulo">
                         <a href="https://www.linkedin.com/company/instituto-de-investigaciones-en-materiales/"
                             target="_blank">
-                            <img src="assets/images/linkedin-02.svg">
+                            <img src="../assets/images/linkedin-02.svg">
                         </a>
                     </div>
                 </div>
@@ -44,22 +44,28 @@ const contactoGenerator = `
             <div class="contenedor contactoRight">
                 <div class="fila">
                     <p>
-                        Secretaria de Vinculación
+                        IIMteresante
+                        </br>
+                        Coordinación de Comunicación y Divulgación Científica
+                        </br></br>Secretaría de Vinculación
                         </br>
                         Instituto de Investigaciones en Materiales
-                        </br>
-                        U.N.A.M.
+                        </br>UNAM
                     </p>
                 </div>
                 <div class="fila">
                     <p>
-                        Circuito Exterior S/N Circuito de la, Investigación Científica, Ciudad Universitaria, 04510,
+                        Circuito Exterior S/N Circuito de la,</br> Investigación Científica, Ciudad Universitaria, 04510,
                         CDMX
                     </p>
                 </div>
                 <div class="fila">
-                    <p>
-                        Dra. Rocío de la Torre Sánchez 
+                    <p class="nombres">
+                        M. en C. Julieta Reyes Arango
+                        <br>
+                        Coordinadora de Comunicación y Divulgación Científica
+                        <br></br>
+                        Dra. Rocío de la Torre Sánchez
                         <br>
                         Secretaria de Vinculación
                     </p>

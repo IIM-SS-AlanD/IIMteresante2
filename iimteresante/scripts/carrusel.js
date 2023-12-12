@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
         const enlace = document.createElement("a");
         enlace.href = contenido.url;
         enlace.appendChild(imagen);
-        if(contenido.text.length > 0){
+        /*if(contenido.text.length > 0){
             text.innerText = contenido.text;
             text.classList.add("slide-text");
             enlace.classList.add(contenido.textPosition);
             enlace.appendChild(text);
-        }
+        }*/
         carouselItem.appendChild(enlace);
         carousel.appendChild(carouselItem);
       });

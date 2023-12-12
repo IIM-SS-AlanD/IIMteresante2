@@ -1,69 +1,4 @@
-/* :root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-  
-    color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #ffffff;
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-  }
-  
-  a {
-    font-weight: 500;
-    color: #646cff;
-    text-decoration: inherit;
-  }
-  a:hover {
-    color: #535bf2;
-  }
-  
-  body {
-    margin: 0;
-    display: flex;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
-  }
-  
-  h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
-  }
-  
-  #app {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .logo {
-    height: 6em;
-    /*padding: 1.5em;*//*
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.vanilla:hover {
-    filter: drop-shadow(0 0 2em #f7df1eaa);
-  }
-  
-  .card {
-    padding: 2em;
-  }
-  
-  .read-the-docs {
-    color: #888;
-  } */
-  
+
   ul {
     list-style: none;
     padding: 0;
@@ -92,11 +27,11 @@
     border-radius: 18px;
     display: none;
     position:absolute;
-    padding-left: 0;
+    padding-left: 10px;
     padding-right: 10;
     background-color: #09767c;
-    width: 230px; /* Ajusta el ancho según sea necesario */
-    height: 170px; /* Ajusta la altura según sea necesario */
+    width: 210px; /* Ajusta el ancho según sea necesario */
+    height: 210px; /* Ajusta la altura según sea necesario */
   }
   
   .navigation-desktop .menu-item a.submenulink{
@@ -106,7 +41,7 @@
   }
 
   .navigation-desktop .menu-item a.submenulink:hover{
-    color: #000000;
+    color:#35eef8;
   }
 
   /* Estilo para la flecha del submenu */

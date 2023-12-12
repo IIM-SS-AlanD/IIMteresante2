@@ -7,32 +7,35 @@ const menuHeaderGenerator = `
             <a href="https://www.unam.mx/"><img src="/assets/images/unam_logo_blanco-02.svg" alt="Logo UNAM"></a>
         </div>
         <div class="menu-item">
-            <a href="/index.html">INICIO</a>
+            <a  id="index" href="/index.html">INICIO</a>
         </div>
         <div class="menu-item">
             <li  class="boton_desplegador">
-                <button class="arrow">RECURSOS ▼</button>
+                <a href="/pages/seccion.html" class="arrow" id="seccion">SECCIONES ▼</a>
                 <ul class="submenu">
-                    <a class="submenulink" href="/pages/pitch-cientifico.html">Pitch Científico</a>
-                    <a class="submenulink" href="/pages/blog-2.html">Podcast</a>
-                    <a class="submenulink" href="/pages/infografias.html">Infografías</a>
+                    <a id="Pitch" class="submenulink" href="/pages/pitch-cientifico.html">Pitch Científico</a>
+                    <a id="Podcast" class="submenulink" href="/pages/Podcast.html">Podcast</a>
+                    <a id="Infografia" class="submenulink" href="/pages/infografias.html">Infografías</a>
+                    <a id="Efemerides" class="submenulink" href="/pages/efemerides.html">Efemerides</a>
                 </ul>   
             </li>
         </div>
         <div class="menu-item">
-            <a href="/pages/investigacion.html">BLOG</a>
+            <a id="BLOG" href="/pages/blog.html">BLOG</a>
         </div>
         <div class="menu-item">
-            <a href="/pages/patentes.html">RED CIENTIFICA</a>
+            <a id="RED" href="/pages/red-cientifica.html">RED CIENTIFICA</a>
+        </div>
+        
+        
+        <div class="menu-item">
+            <a id="GAL" href="/pages/galeria.html">GALERIA</a>
         </div>
         <div class="menu-item">
-            <a href="/pages/convenios.html">CONTACTO</a>
+            <a id="Eventos" href="/pages/eventos.html">EVENTOS</a>
         </div>
         <div class="menu-item">
-            <a href="/pages/innovacion.html">PROXIMAMENTE</a>
-        </div>
-        <div class="menu-item">
-            <a href="/pages/normatividad.html">GALERIA</a>
+            <a id="Contacto" href="/pages/contacto.html">CONTACTO</a>
         </div>
         <div class="menu-toggle-container">
             <button class="menu-toggle">☰</button>
@@ -49,25 +52,22 @@ const menuMobileGenerator = `
                 <a href="/index.html">INICIO</a>
             </div>
             <div class="menu-item">
-                <a href="/pages/servicios.html">SERVICIOS</a>
+                <a href="/pages/recursos.html">RECURSOS</a>
             </div>
             <div class="menu-item">
-                <a href="/pages/investigacion.html">INVESTIGACI&#211;N</a>
+                <a href="/pages/blog.html">BLOG</a>
             </div>
             <div class="menu-item">
-                <a href="/pages/patentes.html">PATENTES</a>
+                <a href="/pages/red-cientifica.html">RED CIENTIFICA</a>
             </div>
             <div class="menu-item">
-                <a href="/pages/convenios.html">CONVENIOS</a>
+                <a href="/pages/contacto.html">CONTACTO</a>
             </div>
             <div class="menu-item">
-                <a href="/pages/innovacion.html">INNOVACI&#211;N</a>
+                <a href="/pages/proximamente.html">PROXIMAMENTE</a>
             </div>
             <div class="menu-item">
-                <a href="/pages/normatividad.html">NORMATIVIDAD</a>
-            </div>
-            <div class="menu-item">
-                <a href="/pages/gestionCalidad.html">GESTI&#211;N DE LA CALIDAD</a>
+                <a href="/pages/galeria.html">GALERIA</a>
             </div>
         </nav>
     </aside>

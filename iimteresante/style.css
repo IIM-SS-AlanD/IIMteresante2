@@ -1,6 +1,7 @@
 
 /* Estilos para el menú de navegación en versión de escritorio */
 
+
 .navigation-desktop {
   display: flex;
   align-items: center;
@@ -18,18 +19,36 @@
 }
 
 .navigation-desktop .menu-item a:hover{
-  color:#000000;
+  color:#34B8BF;
+  
 }
 
 .navigation-desktop .menu-item a {
   text-decoration: none;
   color: #ffffff; /* Cambia el color de los enlaces del menú lateral */
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   /*font-size: 2vw;*/
   display: block;
   margin: 2px 2px;
   padding: 2px 2px;
   flex: 1 0 auto;
+}
+
+/*Cambio de color a pagina principal según en la que se esté*/
+body.index .navigation-desktop .menu-item #index,
+body.seccion .navigation-desktop .menu-item #seccion,
+body.Pitch .navigation-desktop .menu-item #pitch,
+body.Podcast .navigation-desktop .menu-item #Podcast,
+body.Infografia .navigation-desktop .menu-item #Infografia,
+body.Infografia .navigation-desktop .menu-item #Efemerides,
+body.Red .navigation-desktop .menu-item #Red,
+body.GAL .navigation-desktop .menu-item #GAL,
+body.Blog .navigation-desktop .menu-item #BLOG,
+body.Eventos .navigation-desktop .menu-item #Eventos,
+body.Contacto .navigation-desktop .menu-item #Contacto{
+  color:#34B8BF;
+  font-size: 1.6em;
+  text-decoration: underline double ;
 }
 
 .menu-toggle {
@@ -60,8 +79,8 @@
 .menu-overlay {
   position: fixed;
   top: 0;
-  left: -20%; /* Ajusta el valor para que el overlay cubra solo el área del menú */
-  width: 20%;
+  left: -50%; /* Ajusta el valor para que el overlay cubra solo el área del menú */
+  width: 50%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Fondo gris transparente */
   z-index: 999; /* Coloca el overlay por encima del contenido */
@@ -82,10 +101,11 @@
 .navigation-mobile .menu-item a {
   text-decoration: none;
   color: #000000; /* Cambia el color de los enlaces del menú lateral */
-  font-size: 1.1em;
+  font-size: 2em;
   margin: 15px 5px;
   padding: 5px 10px;
   flex: 1 0 auto;
+  font-family: '__Futura Hv BT_5';
 }
 
 .navigation-mobile .menu-item a:hover {
@@ -128,7 +148,7 @@ body {
 }
 
 .logo img {
-  max-width: 95%; /* Hace que la imagen sea responsiva */
+  max-width: 99%; /* Hace que la imagen sea responsiva */
   height: auto; /* Mantiene la relación de aspecto de la imagen */
   
 }
@@ -136,14 +156,14 @@ body {
 .unamL {
   max-width: 135px;
   max-height: 130px;
-  margin: 0px 2% 1% 2%;
+  margin: 0px 2% 1% .2%;
 }
 
 .iimL {
   max-width: 330px;
-  max-height: 130px;
+  max-height: auto;
   margin: 0px 0px;
-  padding: none;
+  padding: 0px;
 }
 
 .section {
@@ -156,6 +176,65 @@ body {
   padding: 20px; /* Espaciado interno */
   margin: 10px; /* Márgenes entre secciones */
   border: 1px solid #ccc; /* Borde para las secciones */
+}
+
+.section-mision {
+  flex-grow: 1;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:center;
+  /* background-color: #e5e5e5; /* Color de fondo para las secciones */
+  padding: 20px; /* Espaciado interno */
+  margin: 10px; /* Márgenes entre secciones */
+  border: 1px solid #ccc; /* Borde para las secciones */
+}
+
+
+.subsection {
+  background-color: #e5e5e5; /* Color de fondo para las secciones */
+  padding: 20px; /* Espaciado interno */
+  margin: 10px; /* Márgenes entre secciones */
+  border: 2px solid #bbbbbb; /* Borde para las secciones */
+  text-align: justify;
+}
+
+.section-frase {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #e5e5e5; /* Color de fondo para las secciones */
+  padding: 20px; /* Espaciado interno */
+  margin: 10px; /* Márgenes entre secciones */
+  border: 1px solid #ccc; /* Borde para las secciones */
+}
+
+.subsection-frase{
+  display: flex;
+  padding: 20px; /* Espaciado interno */
+  margin: 10px; /* Márgenes entre secciones */
+  text-align: justify;
+  align-items: center; 
+}
+
+.centrado{
+  text-align: center;
+}
+
+#frase-titulo{
+  font-size: 1.7em;
+}
+
+.frase-texto{
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.mision{
+  font-family: inherit;
+  font-size: 1.3em;
+  margin:0;
 }
 
 .footer-secundario{
@@ -230,7 +309,7 @@ body {
 }
 
 /* Estilos para dispositivos móviles */
-@media screen and (max-width: 1490px) {
+@media screen and (max-width: 1503px) {
   
   .section {
       flex-direction: column;
@@ -252,6 +331,7 @@ body {
       display: block; /* Muestra el botón del menú en dispositivos móviles */
       color: white;
       font-size: 2rem;
+      
   }
 
   .menu-toggle-container {
@@ -260,37 +340,17 @@ body {
       /* padding-right: 40px; */
       align-items: center;
       /* justify-content: flex-end; */
+      
   }
 
   .menu-mobile.right {
-      right: 0; /* Muestra el menú lateral en dispositivos móviles */
+      right: -30%; /* Muestra el menú lateral en dispositivos móviles */
   }
 
   .menu-overlay.left {
-      left: 0; /* Muestra el menú lateral en dispositivos móviles */
+      left: 0%; /* Muestra el menú lateral en dispositivos móviles */
   }
-  /*
-  .submenu-toggle {
-    padding: 15px 15px 15px 15px;
-    display: block; /* Muestra el botón del menú en dispositivos móviles 
-}
-
-  .submenu-toggle-container {
-      flex: 50%;
-      display: flex;
-      /* padding-right: 40px; 
-      align-items: center;
-      justify-content: flex-end;
-  }
-
-  .submenu-mobile.right {
-      right: 0; /* Muestra el menú lateral en dispositivos móviles 
-  }
-
-  .submenu-overlay.left {
-      left: 0; /* Muestra el menú lateral en dispositivos móviles 
-  }*/
-  
+    
   .unamL {
       max-width: 115px;
       padding: 0px;
@@ -307,7 +367,7 @@ body {
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .menu-item {
       font-size: 0.85rem;
   }
@@ -317,19 +377,26 @@ body {
   }
 
   .unamL {
-      max-height: 90px;
+      max-height: auto;
   }
   
   .iimL {
-      max-height: 90px;
+      max-height: auto;
   }
 
   .header {
-      padding: 10px 30px;
+      padding: 4% 1%;
       height: 90px;
   }
 
   .section{
       flex-direction: column;
+  }
+  .menu-mobile.right {
+    right: 0%; /* Muestra el menú lateral en dispositivos móviles */
+  }
+
+  .menu-overlay.left {
+      left: -30%; /* Muestra el menú lateral en dispositivos móviles */
   }
 }
