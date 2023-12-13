@@ -1,0 +1,57 @@
+.banner{
+    flex: 0 0 auto;
+    max-width: 100%;
+    object-fit: contain;
+    height: fit-content;
+    border-radius: 50px;
+}
+.imagenes{
+    flex: 0 0 auto;
+    max-width: 100%;
+    object-fit: contain;
+    height: fit-content;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border: none; 
+}
+
+.logos{
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccccccad;
+    border-radius: 200px;
+    margin: 1%;
+}
+
+.frame{
+    width: 48%; /* Ajusta el ancho del contenedor según tus necesidades */
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px; /* Espacio entre las filas */
+}
+
+.section-all {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #e5e5e5; /* Color de fondo para las secciones */
+    padding: 25px; /* Espaciado interno */
+    margin: 10px 0px 10px 0px; /* Márgenes entre secciones */
+    border-bottom: 1px solid #ccc; /* Borde para las secciones */
+    border-top: 1px solid #ccc; /* Borde para las secciones */
+    
+}
+
+.descripcion-image{
+    font-family: "__Futura Hv BT_5";
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 0 5% 0 8%;
+    margin-top: 0;
+}

@@ -24,7 +24,7 @@ const menuHeaderGenerator = `
             <a id="BLOG" href="/pages/blog.html">BLOG</a>
         </div>
         <div class="menu-item">
-            <a id="RED" href="/pages/red-cientifica.html">RED CIENTIFICA</a>
+            <a id="Red" href="/pages/red-cientifica.html">RED CIENTIFICA</a>
         </div>
         
         
