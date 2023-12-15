@@ -13,10 +13,11 @@ const menuHeaderGenerator = `
             <li  class="boton_desplegador">
                 <a href="/pages/seccion.html" class="arrow" id="seccion">SECCIONES ▼</a>
                 <ul class="submenu">
-                    <a id="Pitch" class="submenulink" href="/pages/pitch-cientifico.html">Pitch Científico</a>
+                    <a id="Pitch" class="submenulink" href="/pages/pitch-cientifico.html">Ciencia en Corto</a>
                     <a id="Podcast" class="submenulink" href="/pages/Podcast.html">Podcast</a>
                     <a id="Infografia" class="submenulink" href="/pages/infografias.html">Infografías</a>
-                    <a id="Efemerides" class="submenulink" href="/pages/efemerides.html">Efemerides</a>
+                    <a id="Efemerides" class="submenulink" href="/pages/efemerides.html">Efemerides Cientificas</a>
+                    <a id="Efemerides" class="submenulink" href="/pages/efemerides.html">Hablemos de</a>
                 </ul>   
             </li>
         </div>
