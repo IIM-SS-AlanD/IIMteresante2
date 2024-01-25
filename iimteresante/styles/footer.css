@@ -63,9 +63,18 @@
     padding-bottom: 20px;
 }
 
-.mailto{
-    color:rgb(9, 12, 175);
+.circulo img:hover{
+    box-shadow:8px 0px 4px 2px rgba(194, 194, 194, 0.226);
 }
+
+.mailto{
+    color:rgb(80, 170, 253);
+}
+
+.mailto:hover{
+    color:rgb(141, 121, 255);
+}
+
 
 /* Estilos para el enlace dentro de los círculos */
 .circulo a {

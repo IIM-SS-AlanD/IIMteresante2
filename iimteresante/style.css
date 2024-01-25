@@ -45,7 +45,7 @@ body.Red .navigation-desktop .menu-item #Red,
 body.GAL .navigation-desktop .menu-item #GAL,
 body.Blog .navigation-desktop .menu-item #BLOG,
 body.Eventos .navigation-desktop .menu-item #Eventos,
-body.Contacto .navigation-desktop .menu-item #Contacto{
+body.contact .navigation-desktop .menu-item #contact{
   color:#34B8BF;
   font-size: 1.6em;
   text-decoration: underline double ;
@@ -255,6 +255,7 @@ body {
 
 .titulo-blog{
   font-size: 2em;
+  text-align: center;
 }
 .footer-secundario{
   background-color: #e8871eff;
@@ -327,6 +328,8 @@ body {
   font-family: "__Futura Hv BT_5";
   font-size: 45px;
 }
+
+
 
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 1503px) {

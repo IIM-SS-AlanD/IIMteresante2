@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es-ES"><!--en-->
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="..\assets\images\IIMTERESANTE_COMBINACIÓN(1).png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="../assets/images/IIMTERESANTE_LOGO_sin letras.png" />
+        <title>IIMteresante Secciones</title>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="../styles/customfonts.css">
+        <link rel="stylesheet" href="../styles/secciones.css">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/contacto.css">
+    </head>
+    <body class="contact">
+        <header class="header">
+        <!-- Menu generado dinamicamente por menus.js-->
+        </header>
+        <main class="main"> <!-- Cuerpo de la página -->
+        <section class="section-all" > <!-- Sección 1 -->
+            <a href="../pages/blog.html"> 
+            <img class="banner" src="/assets/images/contacto.png" alt="banner de seccion">
+            </a> 
+        </section>
+        
+        <section class="section" >
+            <section class="separation">
+                <p class="parrafo">¿Te gustaría colaborar con nosotros?
+                Contáctanos
+                <br><br>
+                Usa el hashtag #iimteresante en facebook o envíanos un mensaje usando el formulario de contacto
+                </p>
+            </section>
+            <section class="contacto-request">
+                <div class="caja-izq">
+                    <label for="nombre" class="contacto-texto"> Nombre <span class="difuminado">(Obligatorio)</span></label>
+                    <input type="text" id="nombre" required/>
+                    <br><br>
+                    <label for="Correo" class="contacto-texto"> Correo <span class="difuminado">(Obligatorio)</span></label>
+                    <input type="email" id="Correo" required/>
+                    <br><br>
+                    <label for="texto-caja" class="contacto-texto"> Mensaje <span class="difuminado">(Obligatorio)</span></label>
+                    <textarea id="texto-caja" name="mensaje" cols="30" rows="10" required></textarea>
+                    <br><br>
+                    <form action="/action_page.php">
+                        <input type="submit" value="ENVIAR" id="enter">
+                    </form>
+                </div>
+                
+                <div class="caja-der">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1882.5019703188802!2d-99.1812788!3d19.3256353!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce00054425b661%3A0xcf9811899feb5a20!2sInstituto%20de%20Investigaciones%20en%20Materiales%20-%20UNAM!5e0!3m2!1ses!2smx!4v1705291775803!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </section>
+        </section>
+            
+    </main>
+        <footer class="contacto">
+        <!-- Generacion dinamica de apartado de contacto -->
+        </footer>
+        <script src="../scripts/menus.js"></script>
+        <script src="../scripts/contacto.js"></script>
+        
+    </body>
+    </html>

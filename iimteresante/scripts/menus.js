@@ -14,7 +14,7 @@ const menuHeaderGenerator = `
                 <a href="/pages/seccion.html" class="arrow" id="seccion">SECCIONES ▼</a>
                 <ul class="submenu">
                     <a id="Pitch" class="submenulink" href="/pages/pitch-cientifico.html">Ciencia en Corto</a>
-                    <a id="Podcast" class="submenulink" href="/pages/Podcast.html">Podcast</a>
+                    <a id="Podcast" class="submenulink" href="/pages/Podcasts.html">Podcasts</a>
                     <a id="Infografia" class="submenulink" href="/pages/infografias.html">Infografías</a>
                     <a id="Efemerides" class="submenulink" href="/pages/efemerides.html">Efemerides Cientificas</a>
                     <a id="Efemerides" class="submenulink" href="/pages/efemerides.html">Hablemos de</a>
@@ -36,7 +36,7 @@ const menuHeaderGenerator = `
             <a id="Eventos" href="/pages/eventos.html">EVENTOS</a>
         </div>
         <div class="menu-item">
-            <a id="Contacto" href="/pages/contacto.html">CONTACTO</a>
+            <a id="contact" href="/pages/contacto.html">CONTACTO</a>
         </div>
         <div class="menu-toggle-container">
             <button class="menu-toggle">☰</button>

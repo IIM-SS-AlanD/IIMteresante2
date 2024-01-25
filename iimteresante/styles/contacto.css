@@ -1,0 +1,80 @@
+.parrafo{
+    font-family: "__Futura Hv BT_5";
+    font-size: 25px;
+    align-items: center;
+    text-align: left;
+    justify-content: left;
+}
+
+.contacto-texto{
+    font-family: "__Futura Hv BT_5";
+    font-size: 23px;
+    align-items: center;
+    text-align: left;
+    justify-content: left;
+}
+
+.difuminado{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.caja-izq{
+    margin: 5%;
+    width: 100%;
+}
+
+.caja-der{
+    margin: 5%;
+    width: 100%;
+}
+
+.contacto-request{
+    background-color: #1aa0a7;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#nombre{
+    margin-left: 0;
+    border-radius: 10px;
+    border:2px solid #043235;
+}
+
+#Correo{
+    margin-left: 0;
+    border-radius: 10px;
+    border: 2px solid #043235;
+}
+
+#enter{
+    width: 7em;
+    font-size: 1em;
+    font-family: "__Futura Hv BT_5";
+    height: 3em;
+    background-color: #095357;
+    color: #ffffff;
+    border-radius: 10px;
+    border:2px solid #043235;
+}
+
+#enter:hover{
+    background-color: #ffffff;
+    color: #095357;
+    border-radius: 10px;
+    border:3px solid #043235;
+}
+
+#texto-caja{
+    margin: 10px 0px 10px 0px;
+    width: 104%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #043235;
+    resize: none;
+    border-radius: 10px
+}
+
