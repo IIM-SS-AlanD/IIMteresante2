@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es-ES"><!--en-->
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="..\assets\images\IIMTERESANTE_COMBINACIÓN(1).png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="../assets/images/IIMTERESANTE_LOGO_sin letras.png" />
+        <title>IIMteresante Secciones</title>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="../styles/customfonts.css">
+        <link rel="stylesheet" href="../styles/secciones.css">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../style2.css">
+        <link rel="stylesheet" href="../styles/footer.css">
+        <link rel="stylesheet" href="../styles/infografias.css">
+        <link rel="stylesheet" href="../styles/Podcasts.css">
+    </head>
+    <body class="Infografia">
+        <header class="header">
+        <!-- Menu generado dinamicamente por menus.js-->
+        </header>
+        <main class="main"> <!-- Cuerpo de la página -->
+        <section id="Infografia_SeccionBanner"> <!-- Sección 1 -->
+            
+            <a  href="../pages/infografias.html"> 
+            <img class="banner" id="banner_infografia" src="/assets/images/ft-infografias.jpg" alt="banner de seccion">
+            </a>
+            <p id="datetime"></p>
+        </section>
+        <section id="cards" >
+            <div class="card">
+                <div class="card-content">
+                    <a class="card-icon" href="../pages/infografias2022.html">2022</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <a class="card-icon" href="../pages/infografias2023.html">2023</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <a class="card-icon" href="../pages/infografias2024.html">2024</a>
+                </div>
+            </div>
+        </section>
+            
+    </main>
+        <footer class="contacto">
+        <!-- Generacion dinamica de apartado de contacto -->
+        </footer>
+        <script src="../scripts/menus.js"></script>
+        <script src="../scripts/contacto.js"></script>
+        <script>
+            // Get current date and time
+        var now = new Date();
+        
+        var nombresMeses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+
+        // Extract year, month, and day
+        var year = now.getFullYear();
+        var month = now.getMonth() + 1; // Months are zero-based (0 = January)
+        var day = now.getDate();
+
+        // Format the date
+        var formattedDate = (day < 10 ? "0" + day : day) + " de " + nombresMeses[month] + " del " +  year;
+
+        // Insert date into HTML
+        document.getElementById("datetime").innerHTML = formattedDate;
+
+        </script>
+    </body>
+    </html>

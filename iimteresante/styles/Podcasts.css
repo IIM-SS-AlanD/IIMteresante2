@@ -39,6 +39,7 @@
     display: flex;
     flex-wrap: nowrap;
     padding: 40px 0px 0px 200px;
+    margin-bottom: 20px;
 }
 
 #banner_Podcasts{
@@ -76,4 +77,28 @@
     align-items: center;
     width: 80%;
     border-radius: 50px;
+}
+
+.spotify1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    background-color: #D7B8F3;/*0a5357*/
+    border-radius: 50px 50px 0px 0px;
+    margin: 1% 0% 0% ;
+    padding: 2% 0% 2% ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.spotify2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    background-color: #B8B8F3;/*0a5357*/
+    border-radius: 50px 50px 0px 0px;
+    padding: 2% 0% 2% ;
+    margin: 1% 0% 0% ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

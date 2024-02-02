@@ -15,7 +15,7 @@ const menuHeaderGenerator = `
                 <ul class="submenu">
                     <a id="Pitch" class="submenulink" href="/pages/pitch-cientifico.html">Ciencia en Corto</a>
                     <a id="Podcast" class="submenulink" href="/pages/Podcasts.html">Podcasts</a>
-                    <a id="Infografia" class="submenulink" href="/pages/infografias.html">Infografías</a>
+                    <a id="Infografia" class="submenulink" href="/pages/infografias.html">IIMfografías</a>
                     <a id="Efemerides" class="submenulink" href="/pages/efemerides.html">Efemerides Cientificas</a>
                     <a id="Efemerides" class="submenulink" href="/pages/efemerides.html">Hablemos de</a>
                 </ul>   

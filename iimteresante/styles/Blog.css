@@ -63,6 +63,21 @@
     color: #4D01BB;
 }
 
+
+.separation2{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #e5e5e5; /* Color de fondo para las secciones */
+    padding: 20px 20px 50px 20px ; /* Espaciado interno */
+}
+
+.separation2:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* Agregado para manejar el texto que se desborda en dispositivos pequeños */
 .descripcion-image {
     flex-basis: 100%; /* Asegura que el texto ocupe el 100% del ancho en dispositivos pequeños */

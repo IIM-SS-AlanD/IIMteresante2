@@ -1,0 +1,65 @@
+#nav_preview ul{height:400px; width:100%;}
+#nav_preview ul{overflow:hidden; overflow-y:scroll;}
+
+.vid_preview{
+    width: 100%;
+    border-radius: 30px;
+}
+
+#nav_preview ul {
+    list-style-type: none;
+    padding: 10px 0px 0px 0px;
+    overflow: auto; /* This enables horizontal scrolling if necessary */
+    white-space: nowrap; /* Prevents wrapping of list items */
+    border-top: #095357 solid 2px;
+    
+}
+
+section #nav_preview ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 10px; /* Adjust margin between list items */
+    padding: 5px 10px; /* Add padding to list items */
+    
+    width: 35%;
+    border-radius: 10px;
+}
+
+#nav_preview{
+    margin: 10px;
+}
+
+#scrollbar1::-webkit-scrollbar {
+    width: 1px;
+}
+
+#scrollbar1::-webkit-scrollbar-track{
+    border-radius: 3px;
+    background-color: transparent;
+    
+}
+
+#scrollbar1::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-clip: content-box;
+    background-color: #095357;
+}
+
+.instruction{
+    font-family: "__Avenir_5";
+    margin: 40px 20px 20px 20px;
+    background-color: #06373a;
+    width: 50%;
+    height: 40px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.hovered:hover{
+    background-color: rgba(0, 0, 0, 0.377);
+    
+}

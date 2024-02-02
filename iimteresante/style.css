@@ -37,10 +37,6 @@
 /*Cambio de color a pagina principal según en la que se esté*/
 body.index .navigation-desktop .menu-item #index,
 body.seccion .navigation-desktop .menu-item #seccion,
-body.Pitch .navigation-desktop .menu-item #pitch,
-body.Podcast .navigation-desktop .menu-item #Podcast,
-body.Infografia .navigation-desktop .menu-item #Infografia,
-body.Infografia .navigation-desktop .menu-item #Efemerides,
 body.Red .navigation-desktop .menu-item #Red,
 body.GAL .navigation-desktop .menu-item #GAL,
 body.Blog .navigation-desktop .menu-item #BLOG,
@@ -50,6 +46,16 @@ body.contact .navigation-desktop .menu-item #contact{
   font-size: 1.6em;
   text-decoration: underline double ;
 }
+
+body.Pitch .navigation-desktop .menu-item #Pitch,
+body.Podcast .navigation-desktop .menu-item #Podcast,
+body.Infografia .navigation-desktop .menu-item #Infografia,
+body.Efemerides .navigation-desktop .menu-item #Efemerides{
+  color: #3ee2eb;
+  font-size: 1.6em;
+  text-decoration: underline double ;
+}
+
 
 .menu-toggle {
   display: none;
