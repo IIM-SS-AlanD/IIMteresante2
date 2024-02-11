@@ -1,7 +1,3 @@
-
-/* Estilos para el menú de navegación en versión de escritorio */
-
-
 .navigation-desktop {
   display: flex;
   align-items: center;
@@ -137,6 +133,10 @@ body {
   margin: 0;
 }
 
+.vid{
+  margin: 6%;
+}
+
 .header {
   background-color: #095357; /* Color de fondo para la cabecera y el pie de página */
   color: #000000; /* Color de texto para la cabecera y el pie de página */
@@ -184,6 +184,18 @@ body {
   border: 1px solid #ccc; /* Borde para las secciones */
 }
 
+.section-spotify {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #e5e5e5; /* Color de fondo para las secciones */
+  padding: 20px; /* Espaciado interno */
+  margin: 10px; /* Márgenes entre secciones */
+  border: 1px solid #ccc; /* Borde para las secciones */
+}
+
 .section-mision {
   flex-grow: 1;
   display: flex;
@@ -198,11 +210,13 @@ body {
 
 
 .subsection {
-  background-color: #e5e5e5; /* Color de fondo para las secciones */
+  background-color: #ffe3c8; /* Color de fondo para las secciones */
   padding: 20px; /* Espaciado interno */
-  margin: 10px; /* Márgenes entre secciones */
-  border: 2px solid #bbbbbb; /* Borde para las secciones */
+  margin: 10px 30px 10px 30px; /* Márgenes entre secciones */
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Borde para las secciones */
   text-align: justify;
+  border-radius: 20px;
+
 }
 
 .section-frase {
@@ -218,6 +232,7 @@ body {
 
 .subsection-frase{
   display: flex;
+  width: 100%;
   padding: 20px; /* Espaciado interno */
   margin: 10px; /* Márgenes entre secciones */
   text-align: justify;
@@ -229,18 +244,21 @@ body {
 }
 
 #frase-titulo{
-  font-size: 1.7em;
+  font-family: "__Bidena";
+  font-size: 2em;
 }
 
 .frase-texto{
   text-align: center;
-  font-size: 1.4em;
+  font-family: '__Avenir_5';
+  font-size: 1.2em;
 }
 
 .mision{
-  font-family: inherit;
+  font-family: '__Futura Hv BT_5';
   font-size: 1.3em;
   margin:0;
+  color: #000000;
 }
 
 .enlace{
